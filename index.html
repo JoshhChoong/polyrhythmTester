@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Polyrythem</title>
+    <link rel = "stylesheet" href = "./style.css">
+</head>
+<body>
+    <header class = "title">
+        <h1>Polyrythem Tester</h1>
+    </header>
+
+    <div class = "hidden timer" id = "timer">
+        <p>0.0s</p>
+    </div>
+
+    <div class = "row">
+        <div class ="mode" id = "mode_select">
+            <button class = "textButton active" value = "trainer">
+                <span>Trainer</span>
+            </button>
+            <button class = "textButton" value = "test">
+                <span>Test</span>
+            </button>
+        </div>
+
+        <div class = "rythem_count" id = rythem_select>
+            <button class = "textButton active" value = "2">
+                <span>2</span>
+            </button>
+            <button class = "textButton" value = "3">
+                <span>3</span>
+            </button>
+            <button class = "textButton" value = "4">
+                <span>4</span>
+            </button>
+            <button class = "textButton" value = "5">
+                <span>5</span>
+            </button>
+            <button class = "textButton" value = "6">
+                <span>6</span>
+            </button>
+            <button class = "textButton" value = "7">
+                <span>7</span>
+            </button>
+            <button class = "textButton" value = "8">
+                <span>8</span>
+            </button>
+        </div>
+
+        <div class = "time" id = time_select> 
+        <button class = "textButton active" value="15">
+            <span>15</span>
+        </button>
+        <button class = "textButton" value="30">
+            <span>30</span>
+        </button>
+        <button class = "textButton" value="45">
+            <span>45</span>
+        </button>
+         <button class = "textButton" value="60">
+            <span>60</span>
+        </button>
+        </div>
+    </div>
+    
+    <div class = "row2" id = "startButton">
+        <button class = fancyButton id="start">Start</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
